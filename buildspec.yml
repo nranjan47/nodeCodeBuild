@@ -4,7 +4,7 @@ run-as: ec2-user
 phases:
   install:
     runtime-versions:
-      nodejs: 10  
+      nodejs: 16  
     commands:
       - echo Installing Mocha...
       - npm install -g mocha
